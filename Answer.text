@@ -1,0 +1,43 @@
+
+1)
+Answer)
+Redux is a state management library used in web application development to manage and maintain the application’s
+state in a predictable and centralized way. It helps in sharing data between components, making state updates consistent,
+debugging easier, and managing complex state logic efficiently.
+
+2)
+Answer)
+The core concepts of Redux are:
+
+1) Store – Holds the entire state of the application in one central place.
+2) Action – A plain JavaScript object that describes what change needs to happen.
+3) Reducer – A pure function that takes the current state and an action, then returns a new state.
+4) Dispatch – A method used to send actions to the store.
+5) Subscriber – Allows components to listen for state changes in the store.
+
+3)
+Answer)
+
+Redux Thunk is a middleware for Redux that allows you to write asynchronous logic inside action creators.
+
+Normally, Redux actions must return plain objects, but with Redux Thunk, an action can return a function instead of an object.
+This function can perform asynchronous operations—like fetching data from an API—and then dispatch actions once the data is available.
+
+In simple terms, Redux Thunk lets you handle side effects (like API calls) in Redux before updating the store,
+making it easier to manage async workflows in applications.
+
+
+4)
+Answer)
+
+The Redux Toolkit (RTK) provides several benefits that simplify Redux development:
+
+1) Simplified setup – Reduces boilerplate by providing built-in configuration for store setup.
+
+2) Prebuilt utilities – Includes tools like createSlice and createAsyncThunk to simplify reducers and async logic.
+
+3) Improved code readability – Makes Redux code cleaner and easier to understand.
+
+4) Better performance – Uses modern best practices and immutability handling under the hood.
+
+5) Official and recommended – It’s the official, standard way to write Redux logic, ensuring consistency and maintainability.

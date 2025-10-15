@@ -1,0 +1,9 @@
+1) What is Redux and why is it used in web application development ?
+
+2)  Explain the core concepts of Redux
+3) What is Redux Thunk and how does it facilitate asynchronous logic in Redux ?
+
+4) What are the benefits of using the Redux Toolkit ?
+5) Perform a simple state update with the  Redux toolkit, Given an initial state with a user object: { name:
+   'Guest', isLoggedIn: false }, write a reducer function that updates the isLoggedIn property to true when a
+   "LOGIN" action is dispatched.
